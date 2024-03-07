@@ -116,7 +116,7 @@
 &trans    &trans &trans &trans  &trans  &trans                           &trans  &trans    &trans                    &trans              &kp LC(LA(DEL))    &kp LG(L)
 &trans    &trans &trans &trans  &trans  &trans                           &trans  &trans    &kp C_BRIGHTNESS_INC      &kp C_VOLUME_UP     &kp F4              &kp F1
 &trans    &trans &trans &trans  &trans  &trans                           &trans  &trans    &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_DOWN   &trans              &trans
-&trans    &trans &trans &trans  &trans  &trans    &trans        &trans   &trans  &trans.   &trans.                   &kp C_MUTE          &trans              &trans
+&trans    &trans &trans &trans  &trans  &trans    &trans        &trans   &trans  &trans   &trans                   &kp C_MUTE          &trans              &trans
                  &trans &trans  &trans  &trans    &trans        &trans    &trans      &trans   &trans    &trans
             >;
 
