@@ -79,10 +79,10 @@
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&trans    &kp F1    &kp F2 &kp F3 &kp F4  &kp F5                     &kp F6      &kp F7    &kp F8     &kp F9   &kp F10   &kp F11
-&trans    &trans    &kp LC(RIGHT)   &trans  &trans                   &trans      &kp PG_DN &kp PG_UP  &kp DEL  &trans    &trans
-&kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                       &trans      &kp HOME    &kp UP    &kp END    &kp INS  &trans
-&kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp LC(RIGHT)   &trans       &trans    &trans      &kp LEFT    &kp DOWN  &kp RIGHT  &trans   &trans
+&trans    &kp F1    &kp F2 &kp F3 &kp F4  &kp F5                               &kp F6      &kp F7    &kp F8     &kp F9   &kp F10   &kp F11
+&trans    &trans    &kp LC(RIGHT)   &trans  &trans                             &trans    &trans      &kp PG_DN &kp PG_UP  &kp DEL  &trans
+&kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                                 &trans    &trans      &kp HOME    &kp UP    &kp END    &kp INS
+&kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp LC(RIGHT)   &trans       &trans    &trans    &trans      &kp LEFT    &kp DOWN  &kp RIGHT  &trans
                  &trans &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans    &trans
             >;
 
@@ -107,16 +107,16 @@
         };
         misc_layer {
 // ------------------------------------------------------------------------------------------------------------
-// |       |     |     |      |      |      |                   |      |       |       |      |Play   |SLEEP  |
-// |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |   7   |brighte|lauter|   0   |       |
+// |       |     |     |      |      |      |                   |      |       |       |      |ctrlaltentf   |SLEEP  |
+// |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |   7   |brighte|lauter|   F4   |   F12    |
 // |   F1  |  F2 |  F3 |  F4  |  F5  |  F6  |                   |      |   <-  |dimmer |leiser|  ->   |       |
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  mute|   ]   |   \   |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&trans    &trans &trans &trans  &trans  &trans                   &trans  &trans    &trans                    &trans              &kp K_PLAY_PAUSE    &kp LC(L)
-&trans    &trans &trans &trans  &trans  &trans                   &trans  &trans    &kp C_BRIGHTNESS_INC      &kp C_VOLUME_UP     &kp F4              &kp F1
-&trans    &trans &trans &trans  &trans  &trans                   &trans  &trans    &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_DOWN   &trans              &trans
-&trans    &trans &trans &trans  &trans  &trans                   &trans  &trans    &kp C_MUTE                &trans              &trans              &trans
+&trans    &trans &trans &trans  &trans  &trans                           &trans  &trans    &trans                    &trans              &kp LC(LA(DEL))    &kp LG(L)
+&trans    &trans &trans &trans  &trans  &trans                           &trans  &trans    &kp C_BRIGHTNESS_INC      &kp C_VOLUME_UP     &kp F4              &kp F1
+&trans    &trans &trans &trans  &trans  &trans                           &trans  &trans    &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_DOWN   &trans              &trans
+&trans    &trans &trans &trans  &trans  &trans    &trans        &trans   &trans  &trans.   &trans.                   &kp C_MUTE          &trans              &trans
                  &trans &trans  &trans  &trans    &trans        &trans    &trans      &trans   &trans    &trans
             >;
 
